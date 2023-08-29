@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #161625;
+    min-height: 100vh;
+    width: 80%;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+.website-name {
+    font-family: Roboto;
+    color: #2cc6c6;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.failure-name {
+    color: #ffffff;
+    font-family: Bree-serif;
+}
+
+.failure-image {
+    height: 50%;
+    width: 80%;
+}
+
+.main-heading {
+    font-family: Roboto;
+    color: #cbd5e1;
+    font-size: 22px;
+    margin-top: 10px;
+}
